@@ -1,10 +1,10 @@
 {
-  "name": "hv-grid-docs",
+  "name": "ml-grid-docs",
   "version": "0.1.0",
   "description": "Mapping high-voltage infrastructure at a country-wide scale",
   "repository": {
     "type": "git",
-    "url": "https://github.com/developmentseed/hv-grid-docs"
+    "url": "https://github.com/developmentseed/ml-grid-docs"
   },
   "author": {
     "name": "Development Seed",
@@ -12,17 +12,15 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/developmentseed/hv-grid-docs/issues"
+    "url": "https://github.com/developmentseed/ml-grid-docs/issues"
   },
   "homepage": "",
   "scripts": {
-    "postinstall": "[ -f app/assets/scripts/config/local.js ] || echo \"'use strict';\n\nexport default {\n  environment: 'development'\n};\" > app/assets/scripts/config/local.js; [ -f _config-dev.js ] || echo \"module.exports = {\n  baseurl: 'http://localhost:3000'\n};\" > _config-dev.js",    "serve": "DS_ENV=development gulp collecticons && DS_ENV=development gulp serve",
+    "postinstall": "[ -f app/assets/scripts/config/local.js ] || echo \"'use strict';\n\nexport default {\n  environment: 'development'\n};\" > app/assets/scripts/config/local.js; [ -f _config-dev.js ] || echo \"module.exports = {\n  baseurl: 'http://localhost:3000'\n};\" > _config-dev.js",
+    "serve": "DS_ENV=development gulp collecticons && DS_ENV=development gulp serve",
     "build": "DS_ENV=production NODE_ENV=production gulp",
     "lint": "eslint app/assets/scripts/ --ext .js",
     "test": "echo \"No tests\" && exit 0"
-  },
-  "engines": {
-    "node": "6.x"
   },
   "browserify": {
     "transform": [
