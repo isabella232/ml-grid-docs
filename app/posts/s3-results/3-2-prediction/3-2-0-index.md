@@ -1,5 +1,5 @@
 ---
-title: Country wide predictions
+title: Country-wide predictions
 date: 2018-02-16
 layout: post.html
 ---
