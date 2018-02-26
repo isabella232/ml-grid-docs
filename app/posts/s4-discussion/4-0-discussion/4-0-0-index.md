@@ -14,12 +14,12 @@ From a community standpoint, the IA approach is also prudent in comparison to a 
 ## Future directions
 The rest of this discussion section is focused on improvements for future iterations of this mapping workflow.
 
-1. improving big data handling
-  1. efficiently downloading and storing large imagery datasets
-  1. matching download and prediction speeds on the fly
-1. improving the machine learning predictions
-  1. detecting HV substations
-  1. improving HV tower detection
-  1. using additional forms of imagery (like SAR)
-1. integrating ML predictions into human mapping workflow more effectively
+1. **Improving how we handle big data**
+    1. efficiently downloading and storing large imagery datasets
+    1. matching download and prediction speeds on the fly
+1. **Improving the machine learning predictions**
+    1. detecting HV substations
+    1. improving HV tower detection
+    1. using additional forms of imagery (like SAR)
+1. **Integrating ML predictions into human mapping workflow more effectively**
 
