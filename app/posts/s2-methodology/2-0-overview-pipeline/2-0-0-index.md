@@ -6,9 +6,7 @@ layout: post.html
 
 Generating country-wide maps involved several key steps outlined below and discussed in detail:
 
-1. Obtain country boundaries for Pakistan, Zambia, and Nigeria 
-2. Compute all satellite imagery tile indices within those bounds
-3. Train a machine learning model to compute the probability that a HV towers was present in a single image using a small training set from each country
-4. Using trained model, compute these probabilities across all three countries
-5. Compile the highest probability results into a GeoJSON overlay that indicated the most likely HV tower locations. 
-6. Manually map HV infrastructure (specifically towers and substations) using the overlay
+1. Download imagery for Pakistan, Zambia, and Nigeria after obtaining country boundaries and computing tile indices
+1. Train and apply a machine learning model to compute the probability that a HV towers was present in a single image using a small training set from each country. Then apply the model at a country-wide scale
+1. Compile the highest probability results into a GeoJSON map overlay that indicated the most likely HV tower locations. 
+1. Trace HV infrastructure (specifically towers, lines, and substations) using the ML-derived overlay to focus on high-value areas.
