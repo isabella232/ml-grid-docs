@@ -1,9 +1,0 @@
----
-title: Intelligence augmentation
-date: 2012-08-23
-layout: post.html
----
-
-Throughout the course of this project, we confirmed that neither humans nor an automated system alone are currently a feasible approach for mapping HV infrastructure. One one hand, professional mappers are very accurate and know when to ask for confirmation on difficult imagery. The time required, however, to manually review an entire country is tremendous. For our Data Team of 8 master mappers, we estimated it would have taken about 6 months of full time effort to complete Pakistan. On the other hand, ML algorithms can operate with very high throughput and very little oversight once trained. With a trained model, Pakistan required only several days of computation time and a few hours of human effort to monitor the scripts. That said, our ML results indicated that it would be practically impossible to train an algorithm as accurate as a human. Therefore, we chose to combine the strengths of both in an Intelligence Augmentation (IA) approach.
-
-From a community standpoint, the IA approach is also prudent in comparison to a pure AI strategy focused on completely replacing humans. By keeping a human in the loop, we can make sure all ML predictions are validated by a professional mapper before the additions are incorporated into OSM. The OSM community is (rightly) skeptical of any method that add edits without human verification as this strategy has led to fiascos in the past -- most notably in Egypt’s road map. Therefore, building a workflow utilizing the strengths of both is likely the optimal way forward. Future work should focus on improving the machine learning predictions, and better incorporating those predictions into mapping editors (perhaps as plugins for standard map editors) so they are widely available to human mappers.
