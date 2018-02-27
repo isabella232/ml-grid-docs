@@ -1,5 +1,5 @@
 ---
-title: Optimization: signal detection threshold
+title: "Optimization: signal detection threshold"
 date: 2018-02-16
 layout: post.html
 ---

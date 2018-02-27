@@ -1,5 +1,5 @@
 ---
-title: Optimization: model training
+title: "Optimization: model training"
 date: 2018-02-16
 layout: post.html
 ---
