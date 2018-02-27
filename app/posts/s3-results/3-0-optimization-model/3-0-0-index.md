@@ -4,7 +4,7 @@ date: 2018-02-16
 layout: post.html
 ---
 
-To test many different combinations of model hyperparameters, we used the Hyperopt library to automate the hyperparameter search and tracked each model in Tensorboard. The full list of possible hyperparameters is available in `config.py`, but some of the most important examples include the optimization scheme, learning rate, and non-linear activation function. By visualizing model loss and performance on the held-out test data, this allowed us to pick the highest performing model of about 125 trained models tested throughout the early stages of this project.
+To test many different combinations of model hyperparameters, we used the Hyperopt library and the tracked each model's performance in Tensorboard. The full list of possible hyperparameters is available in `config.py`, but some of the most important examples include the optimization scheme, learning rate, and non-linear activation function. By visualizing model loss and performance on the held-out test data, this allowed us to pick the highest performing model of about 125 trained models tested throughout the early stages of this project.
 
 
 <figure class="align-center">

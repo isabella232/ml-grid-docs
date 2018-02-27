@@ -4,7 +4,7 @@ date: 2018-02-16
 layout: post.html
 ---
 
-We found that our Data Team was approximately 15-20x faster with the ML-derived overlay for Pakistan, Nigeria, and Zambia (Figure XXX).
+We found that our Data Team was approximately 15-20x faster with the ML-derived overlay for Pakistan, Nigeria, and Zambia (Figure XXX). The total time spent mapping and validating each country (once ML predictions were available) is in Table 1.
 
 <figure class="align-center">
   <img src="/assets/graphics/content/results_plots/mapping_rate.png" alt="Mapping rate for km^2, towers, and substations per hour." />
