@@ -1,6 +1,6 @@
 ---
 title: The processing pipeline
-date: 2012-09-28
+date: 2018-02-27
 layout: post.html
 ---
 

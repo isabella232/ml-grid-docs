@@ -11,5 +11,5 @@ Toward solving this problem, we built a pipeline to efficiently map the high-vol
 
 <figure class="align-center">
   <img src="/assets/graphics/content/hv_grid_tower_tracing.gif" alt="Tracing HV towers." />
-  <figcaption><b>Figure XXX. Tracing with ML-derived prediction overlay. Each square represents a tile that the ML model believed to contain a HV tower. The Data Team then mapped from tower to tower using this overlay as a guide. Video reflects actual speed.</b></figcaption>
+  <figcaption><b>Figure 1. Tracing with ML-derived prediction overlay. Each square represents a tile that the ML model believed to contain a HV tower. The Data Team then mapped from tower to tower using this overlay as a guide. Video reflects actual speed.</b></figcaption>
 </figure>

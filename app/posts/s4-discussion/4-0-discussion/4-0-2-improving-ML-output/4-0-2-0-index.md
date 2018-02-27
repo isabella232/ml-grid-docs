@@ -1,6 +1,6 @@
 ---
-title: Improving ML output
-date: 2012-08-23
+title: 2. Improving ML output
+date: 2018-02-27
 layout: post.html
 ---
 

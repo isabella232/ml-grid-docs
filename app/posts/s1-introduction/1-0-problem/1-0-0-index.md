@@ -1,6 +1,6 @@
 ---
 title: Problem
-date: 2012-09-28
+date: 2018-02-27
 layout: post.html
 ---
 
@@ -8,5 +8,5 @@ Access to electricity is still limited in many developing nations. A variety of 
 
 <figure class="align-center">
   <img src="/assets/graphics/content/hv_grid_positive_examples.png" alt="Examples of HV towers." />
-  <figcaption><b>Figure XXX. Examples of HV towers in satellite images.</b></figcaption>
+  <figcaption><b>Figure 2. Examples of HV towers in satellite images.</b></figcaption>
 </figure>
