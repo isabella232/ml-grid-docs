@@ -14,8 +14,8 @@ Using the GeoJSON overlay, the data-team began to trace all HV infrastructure. T
 Each person selects and “locks” a square before mapping all HV features that lie within this small zone using JSOM. Each square was approximately 1,100 km<sup>2</sup>, which often contained many predicted towers distributed throughout the area (Figure XXX). 
 
 <figure class="align-center">
-  <img src="/assets/graphics/content/tasking_manager_example.png" alt="Tasking manager tile" />
-  <figcaption><b>Figure XXX. Example of a single locked tile from the task manager.</b> Each yellow dot represents a positive prediction by the model that should be manually reviewed.</figcaption>
+  <img src="/assets/graphics/content/task_manager_tile.png" alt="Tasking manager tile" />
+  <figcaption><b>Figure XXX. Example of a single locked tile from the task manager.</b> Each dot represents a positive prediction by the model ready to be manually reviewed.</figcaption>
 </figure>
 
 
