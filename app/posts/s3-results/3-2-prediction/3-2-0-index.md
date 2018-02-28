@@ -13,10 +13,10 @@ After selecting an optimal model and decision threshold, we processed imagery ac
 
 <figure class="align-center">
   <img src="/assets/graphics/content/results_plots/ml_output_nigeria_1.png" alt="Nigeria country-wide HV tower prediction" />
-  <figcaption><b>Figure 11. Country-wide prediction map in Nigeria.</b></figcaption>
+  <figcaption><b>Figure 11. Country-wide prediction map in Nigeria. </b>The model made many false positives along the central savannah region of Nigeria. Here, the landscape is mostly comprised of exposed rock outcroppings and sharp hills. These rugged areas have many long cracks and grey-colored rocks that likely contributed to the false positives here. Our training data came from a very different terrain -- the tropical rainforest region in the Southeast.</figcaption>
 </figure>
 
 <figure class="align-center">
   <img src="/assets/graphics/content/results_plots/ml_output_zambia_1.png" alt="Zambia country-wide HV tower prediction" />
-  <figcaption><b>Figure 12. Country-wide prediction map in Zambia.</b></figcaption>
+  <figcaption><b>Figure 12. Country-wide prediction map in Zambia.</b> The model performed relatively well in here -- likely the best of the three countries. In the Southern region, however, the imagery quality was relatively poor (i.e., somewhat discolored and blurry) compared to the rest of the country causing more false positive predictions. This is often indicated by sharp boundaries in prediction density. The effects of wildfires are also visible in some regions where the model performed poorly. This likely occurred because our training data did not sample from these burned regions. </figcaption>
 </figure>
