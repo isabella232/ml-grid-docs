@@ -8,7 +8,7 @@ We found that our Data Team was approximately 15-20x faster with the ML-derived 
 
 <figure class="align-center">
   <img src="/assets/graphics/content/results_plots/mapping_rate.png" alt="Mapping rate for km^2, towers, and substations per hour." />
-  <figcaption><b>Figure 13. Mapping rate with and without ML-assist. On average, km<sup>2</sup> per hour increased by Xx, towers per hour by Xx, and substations per hour by Xx. Note that these figures exclude hours spent validating (i.e., double-checking) added edits. This ensured a fair comparison as no validation was carried out during the pre-ML mapping work. </b></figcaption>
+  <figcaption><b>Figure 13. Mapping rate with and without ML-assist. On average, km<sup>2</sup> per hour increased by Xx, towers per hour by Xx, and substations per hour by Xx. Note that these figures exclude hours spent validating (i.e., double-checking) added edits. This ensured a fair comparison as no validation was carried out during the pre-ML mapping work to generate the training data. </b></figcaption>
 </figure>
 
 Table 1. **Total person-hours spent mapping at country-wide scale.**

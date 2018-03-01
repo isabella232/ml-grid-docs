@@ -4,7 +4,7 @@ date: 2018-02-16
 layout: post.html
 ---
 
-After selecting an optimal model and decision threshold, we processed imagery across Pakistan, Nigeria, and Zambia (Figures 10-12). The same model was used across all three countries, and we found (unsurprisingly) that the model performed much better in regions of each country where we collected the original training data (likely because of the similar terrain).
+After selecting an optimal model and decision threshold, we processed country-wide imagery sets across Pakistan, Nigeria, and Zambia (Figures 10-12). Note the thin snaking lines in these plots indicating where HV lines exist. The same model was used across all three countries, and we found (unsurprisingly) that the model performed much better in regions of each country where we collected the original training data (likely because of the similar terrain). Outside of these areas, the model gave more false positives (appearing as large dark blobs).
 
 <figure class="align-center">
   <img src="/assets/graphics/content/results_plots/ml_output_pakistan_2.png" alt="Pakistan country-wide HV tower prediction" />
