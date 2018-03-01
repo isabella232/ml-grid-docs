@@ -4,7 +4,7 @@ date: 2018-02-16
 layout: post.html
 ---
 
-When training deep learning models, there are many small choices to make regarding the architecture and training procedure to follow. Typically, a good strategy is to test a wide range of hyperparameters and select the model with the highest performance. The full list of possible hyperparameters is available in `config.py`, but some of the most important examples include the optimization scheme, learning rate, and non-linear activation function. To automate testing process, we used the Hyperopt library and the tracked each model's performance in Tensorflow's Tensorboard -- a tool for visualizing model performance during training (Figure 7). We tested about 150 different iterations of the Xception model during the early stage of this project and selected the highest performing one.
+When training deep learning models, there are many small choices to make regarding the architecture and training procedure to follow. Typically, a good strategy is to test a wide range of hyperparameters and select the model with the highest performance. The full list of possible hyperparameters tested is available in `config.py`, but some of the most important examples include the optimization scheme, learning rate, and non-linear activation function. To automate testing process, we used the Hyperopt library and the tracked each model's performance in Tensorflow's Tensorboard -- a tool for visualizing model performance during training (Figure 7). We tested about 150 different iterations of the Xception model during the early stage of this project and selected the highest performing one.
 
 
 <figure class="align-center">

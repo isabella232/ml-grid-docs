@@ -13,8 +13,8 @@ We found that our Data Team was approximately 15-20x faster with the ML-derived 
 
 Table 1. **Total person-hours spent mapping at country-wide scale.**
 
-| Country  | Hours mapping | Hours validating |
-| -------- |:-------------:|:----------------:|
-| Pakistan | 364.13		   | 181.09 |
-| Nigeria  | -             | - |
-| Zambia   | -             | - |
+| Country    | Hours mapping    | Hours validating    |
+| ---------- |:---------------- |:------------------- |
+| Pakistan   | 364.13		    | 181.09 |
+| Nigeria    | -                | - |
+| Zambia     | -                | - |
