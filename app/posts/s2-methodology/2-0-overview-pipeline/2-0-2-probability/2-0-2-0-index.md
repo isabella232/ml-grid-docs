@@ -3,6 +3,7 @@ title: 2. Machine learning
 date: 2018-02-27
 layout: post.html
 ---
+Code and model available on [Github](https://github.com/developmentseed/ml-hv-grid-pub)
 
 With the imagery downloaded, the next step was to autonomously investigate these images for HV towers. We generated a probability score on the interval [0, 1] that a HV tower was present in each raster image using a convolutional neural network (CNN). The CNN took raster images as input, and produced a single probability per image as output. Specifically, we used the [XCeption neural network](https://arxiv.org/abs/1610.02357) (Chollet, 2016), as it has shown excellent scores on the ImageNet benchmark test set and has relatively few parameters relative to comparable CNNs (e.g., VGG and Inception). The latter fact implies faster training and prediction runtimes simply because there are fewer point computations per image.
 
