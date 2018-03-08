@@ -20,8 +20,8 @@ We found that our Data Team was approximately 33.4x faster per km<sup>2</sup> wi
 
 Table 1. **Total person-hours spent mapping at country-wide scale.**
 
-| Country    | Hours mapping    | Hours validating    |
-| ---------- |:---------------- |:------------------- |
-| Pakistan   | 364.13		    | 181.09 |
-| Nigeria    | 243.12           | 74.47  |
-| Zambia     | 167.17           | 29.45  |
+| Country    | Hours mapping    | Hours validating |
+|:---------- |:---------------- |:---------------- |
+| Pakistan   | 364.13		    | 181.09 	 	   |
+| Nigeria    | 243.12           | 74.47  		   |
+| Zambia     | 167.17           | 29.45            |
