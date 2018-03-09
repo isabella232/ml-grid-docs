@@ -1,5 +1,5 @@
 ---
-title: Mapping speed
+title: Mapping output and speed
 date: 2018-02-16
 layout: post.html
 ---
@@ -10,7 +10,7 @@ We found that our Data Team was approximately 33.4x faster per km<sup>2</sup> wi
 
 <figure class="align-center">
   <img src="/assets/graphics/content/results_plots/mapped_features.png" alt="Total mapping edits." />
-  <figcaption><b>Figure 13. HV infrastructure features in OSM. Left: Total number of HV towers at the conclusion of this project split up into existing (dark blue) and those edited during this project (either added or corrected; light blue). Right: Total number of substations at the conclusion of this project split up into existing (dark blue) and those edited during this project (light blue). In both, the large majority of edits were additions.</b></figcaption>
+  <figcaption><b>Figure 13. HV infrastructure features in OSM.</b> Left: Total number of HV towers at the conclusion of this project split up into existing (dark blue) and those edited during this project (either added or corrected; light blue). Right: Total number of substations at the conclusion of this project split up into existing (dark blue) and those edited during this project (light blue). In both, the large majority of edits were additions.</figcaption>
 </figure>
 
 <figure class="align-center">
