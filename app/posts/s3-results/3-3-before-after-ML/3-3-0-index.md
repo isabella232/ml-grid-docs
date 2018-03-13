@@ -25,3 +25,27 @@ Table 1. **Total person-hours spent mapping at country-wide scale.**
 | Pakistan   | 364.13		    | 181.09 	 	   |
 | Nigeria    | 243.12           | 74.47  		   |
 | Zambia     | 167.17           | 29.45            |
+{.table}
+
+## Interactive demonstrations
+
+<figure class="align-center">
+  <a href="https://bl.ocks.org/Rub21/raw/51ebe739252d5595f5ab938ea4058886/" target="_blank">
+    <img src="/assets/graphics/content/results_plots/map_wipe_pakistan.gif" alt="Before/after mapping in Pakistan.">
+  </a>
+  <figcaption><b>Figure 15. Before and after mapping in Pakistan.</b> High-voltage infrastructure before (yellow) and after (green) this project was complete. Click for interactive demo and zoom in to see individual towers (dots) and substations.</figcaption>
+</figure>
+
+<figure class="align-center">
+  <a href="https://bl.ocks.org/piligab/raw/7cfc74433586d8a89fddbef434789cc9/" target="_blank">
+    <img src="/assets/graphics/content/results_plots/map_wipe_nigeria.gif" alt="Before/after mapping in Nigeria.">
+  </a>
+  <figcaption><b>Figure 16. Before and after mapping in Nigeria.</b> High-voltage infrastructure before (yellow) and after (green) this project was complete. Click for interactive demo and zoom in to see individual towers (dots) and substations.</figcaption>
+</figure>
+
+<figure class="align-center">
+  <a href="https://bl.ocks.org/calfarome/raw/98efb79f2ac2aa52946dc39315d7b413/" target="_blank">
+    <img src="/assets/graphics/content/results_plots/map_wipe_zambia.gif" alt="Before/after mapping in Zambia.">
+  </a>
+  <figcaption><b>Figure 17. Before and after mapping in Zambia.</b> High-voltage infrastructure before (yellow) and after (green) this project was complete. Click for interactive demo and zoom in to see individual towers (dots) and substations.</figcaption>
+</figure>

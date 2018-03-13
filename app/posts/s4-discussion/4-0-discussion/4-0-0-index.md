@@ -1,5 +1,5 @@
 ---
-title: Discussion and future directions
+title: Discussion
 date: 2018-02-27
 layout: post.html
 ---

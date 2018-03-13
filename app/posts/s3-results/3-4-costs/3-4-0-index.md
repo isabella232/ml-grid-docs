@@ -13,3 +13,4 @@ All computation and data manipulation was carried out on Amazon Web Services (AW
 | AWS EC2: training and predicting        | $392.14 	   |
 | AWS S3: storing and accessing imagery   | $686.33 	   |
 | **Total**							      | **$1137.85**   |
+{.table}
