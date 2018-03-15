@@ -4,18 +4,18 @@ date: 2018-02-27
 layout: post.html
 ---
 
-Using the GeoJSON overlay, the data-team began to trace all HV infrastructure. They first created a “task” for each country using a [tasking manager](https://github.com/hotosm/tasking-manager). This tool breaks a geospatial area into a grid of small squares, where any person can only work on mapping a single small region at a time (to prevent collisions; Figure 5).
+Using the GeoJSON overlay, the data-team began to trace all HV infrastructure. They first created a “task” for each country using a [tasking manager](https://github.com/hotosm/tasking-manager). This tool breaks a geospatial area into a grid of small squares, where any person can only work on mapping a single small region at a time (to prevent collisions; Figure 8).
 
 <figure class="align-center">
   <img src="/assets/graphics/content/tasking_manager_example.png" alt="Tasking manager" />
-  <figcaption><b>Figure 5. Example of tasking manager in Zambia.</b> Each yellow square represents a small region that was mapped and each blue square shows a locked region where mapping in progress by a single person. Squares without any color still require attention.</figcaption>
+  <figcaption><b>Figure 8. Example of tasking manager in Zambia.</b> Each yellow square represents a small region that was mapped and each blue square shows a locked region where mapping in progress by a single person. Squares without any color still require attention.</figcaption>
 </figure>
 
-Each person selects and “locks” a square before mapping all HV features that lie within this small zone using JSOM. Each square was approximately 1,100 km<sup>2</sup>, which often contained many predicted towers distributed throughout the area (Figure 6). 
+Each person selects and “locks” a square before mapping all HV features that lie within this small zone using JSOM. Each square was approximately 1,100 km<sup>2</sup>, which often contained many predicted towers distributed throughout the area (Figure 9). 
 
 <figure class="align-center">
   <img src="/assets/graphics/content/task_manager_tile.png" alt="Tasking manager tile" />
-  <figcaption><b>Figure 6. Example of a single locked tile from the task manager.</b> Each dot represents a positive prediction by the model ready to be manually reviewed.</figcaption>
+  <figcaption><b>Figure 9. Example of a single locked tile from the task manager.</b> Each dot represents a positive prediction by the model ready to be manually reviewed.</figcaption>
 </figure>
 
 
