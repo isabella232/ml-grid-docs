@@ -20,8 +20,8 @@ The XCeption model was trained using three small datasets -- one from each of th
   	<figcaption><b>Figure 6. Training region for Nigeria.</b> Green features represent HV infrastructure included in the training data. There are some broken lines as HV infrastructure was only included if it was visible on the Digital Globe Vivid layer.</figcaption>
  </figure>
  <figure class="media__hascol media__hascol--2">
-  		<img src="/assets/graphics/content/training_ROI_Zambia.jpg" alt="Zambia training area." class="media__item"/>
-  		<img src="/assets/graphics/content/training_ROI_Zambia_zoom.jpg" alt="Zambia training area zoom." class="media__item"/>
+  		<img src="/assets/graphics/content/training_ROI_zambia.jpg" alt="Zambia training area." class="media__item"/>
+  		<img src="/assets/graphics/content/training_ROI_zambia_zoom.jpg" alt="Zambia training area zoom." class="media__item"/>
   	<figcaption><b>Figure 7. Training region for Zambia.</b> Green features represent HV infrastructure included in the training data. There are some broken lines as HV infrastructure was only included if it was visible on the Digital Globe Vivid layer.</figcaption>
  </figure>
 
