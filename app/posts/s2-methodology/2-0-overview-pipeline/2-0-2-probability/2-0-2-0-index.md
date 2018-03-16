@@ -10,18 +10,18 @@ With the imagery downloaded, the next step was to autonomously investigate these
 The XCeption model was trained using three small datasets -- one from each of the three target countries (Figures 5-7). The Data Team manually validated all tiles in these datasets and incorporated any required changes into OSM. This involved checking every meter of ground so that we were confident our training dataset did not miss any towers or include false positives, which would hurt our ML model performance during the inference stage (i.e., predicting on a country-wide image set). For the trainind data, we only used the Digital Globe Vivid layer as this was the imagery we had access to for full country prediction. We then constructed the actual data using [Label-Maker](https://github.com/developmentseed/label-maker) -- an open tool we built previously to rapidly construct ML-ready datasets from OSM and an imagery source. The training procedure leveraged transfer learning: the XCeption model was initialized in [Keras](https://keras.io/) using weights from [ImageNet](http://www.image-net.org/) training. We then re-trained only the top layer for 2-5 epochs so that it would output the probability of two classes (HV tower present or absent), and finally opened up training to all layers to fine tune the entire model.
 
 <figure class="media__hascol media__hascol--2">
-  	<img src="/assets/graphics/content/training_ROI_pakistan.png" alt="Pakistan training area." class="media__item" />
-  	<img src="/assets/graphics/content/training_ROI_pakistan_zoom.png" alt="Pakistan training area zoom." class="media__item" />
+  	<img src="/assets/graphics/content/training_ROI_pakistan.jpg" alt="Pakistan training area." class="media__item" />
+  	<img src="/assets/graphics/content/training_ROI_pakistan_zoom.jpg" alt="Pakistan training area zoom." class="media__item" />
   	<figcaption><b>Figure 5. Training region for Pakistan. Green features represent HV infrastructure included in the training data.</b></figcaption>
  </figure>
  <figure class="media__hascol media__hascol--2">
-  	<img src="/assets/graphics/content/training_ROI_nigeria.png" alt="Nigeria training area." class="media__item"/>
-  	<img src="/assets/graphics/content/training_ROI_nigeria_zoom.png" alt="Nigeria training area zoom." class="media__item"/>
+  	<img src="/assets/graphics/content/training_ROI_nigeria.jpg" alt="Nigeria training area." class="media__item"/>
+  	<img src="/assets/graphics/content/training_ROI_nigeria_zoom.jpg" alt="Nigeria training area zoom." class="media__item"/>
   	<figcaption><b>Figure 6. Training region for Nigeria.</b> Green features represent HV infrastructure included in the training data. There are some broken lines as HV infrastructure was only included if it was visible on the Digital Globe Vivid layer.</figcaption>
  </figure>
  <figure class="media__hascol media__hascol--2">
-  		<img src="/assets/graphics/content/training_ROI_Zambia.png" alt="Zambia training area." class="media__item"/>
-  		<img src="/assets/graphics/content/training_ROI_Zambia_zoom.png" alt="Zambia training area zoom." class="media__item"/>
+  		<img src="/assets/graphics/content/training_ROI_Zambia.jpg" alt="Zambia training area." class="media__item"/>
+  		<img src="/assets/graphics/content/training_ROI_Zambia_zoom.jpg" alt="Zambia training area zoom." class="media__item"/>
   	<figcaption><b>Figure 7. Training region for Zambia.</b> Green features represent HV infrastructure included in the training data. There are some broken lines as HV infrastructure was only included if it was visible on the Digital Globe Vivid layer.</figcaption>
  </figure>
 

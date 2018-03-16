@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Core: Media
+   ========================================================================== */
+
+.media__hascol {
+  @extend .clearfix;
+  > .media__item {
+    margin: ($global-spacing) 0 0 0;
+  }
+  figcaption {
+    @extend .clearfix;
+    float: left;
+    width: 100%;
+  }
+}
+.media__hascol--2 {
+  > .media__item {
+    $col-group: 2;
+    @include column(6/12, $cycle: $col-group);
+
+    @for $child from 1 through $col-group {
+      &:nth-child(#{$child}) {
+        margin-top: 0;
+      }
+    }
+  }
+}
+.media__hascol--3 {
+  > .media__item {
+    $col-group: 3;
+    @include column(4/12, $cycle: $col-group);
+
+    @for $child from 1 through $col-group {
+      &:nth-child(#{$child}) {
+        margin-top: 0;
+      }
+    }
+  }
+}
