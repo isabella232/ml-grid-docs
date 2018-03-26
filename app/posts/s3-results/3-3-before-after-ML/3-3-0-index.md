@@ -4,7 +4,7 @@ date: 2018-02-16
 layout: post.html
 ---
 
-This project substatially expanded the amount of mapped HV infrastructure (Figure 16). Edits include both additions and major corrections though the majority of edits were additions.
+This project substantially expanded the amount of mapped HV infrastructure (Figure 16). Edits include both additions and major corrections though the majority of edits were additions.
 
 We found that our Data Team was approximately 33.4x faster per km<sup>2</sup> with the ML-derived overlay for Pakistan, Nigeria, and Zambia (Figure 17). The total time spent mapping and validating each country using these ML predictions is in Table 1.
 

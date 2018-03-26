@@ -13,7 +13,7 @@ After selecting an optimal model and decision threshold, we processed country-wi
 
 <figure class="align-center">
   <img src="/assets/graphics/content/results_plots/ml_output_nigeria_1.png" alt="Nigeria country-wide HV tower prediction" />
-  <figcaption><b>Figure 14. Country-wide prediction map in Nigeria. </b>The model made many false positives along the central savannah region of Nigeria. Here, the landscape is mostly comprised of exposed rock outcroppings and sharp hills. These rugged areas have many long cracks and grey-colored rocks that likely contributed to the false positives here. Our training data came from a very different terrain -- the tropical rainforest region in the Southeast.</figcaption>
+  <figcaption><b>Figure 14. Country-wide prediction map in Nigeria. </b>The model made many false positives along the central savannah region of Nigeria. Here, the landscape is mostly comprised of exposed rock outcroppings and sharp hills. These rugged areas have many long cracks and grey-colored rocks that likely contributed to the false positives here. Our training data came from a very different terrain -- the tropical rain forest region in the Southeast.</figcaption>
 </figure>
 
 <figure class="align-center">
