@@ -39,7 +39,7 @@ Table 1. **Total person-hours spent mapping at country-wide scale.**
 </figure>
 
 <figure class="align-center">
-  <a href="https://bl.ocks.org/piligab/raw/7cfc74433586d8a89fddbef434789cc9/" target="_blank">
+  <a href="https://bl.ocks.org/ridixcr/raw/8379b985314de1b80e498e10a6e218b4/" target="_blank">
     <img src="/assets/graphics/content/results_plots/map_wipe_nigeria.gif" alt="Before/after mapping in Nigeria.">
   </a>
   <figcaption><b>Figure 19. Before and after mapping in Nigeria.</b> High-voltage infrastructure before (yellow) and after (green) this project was complete. Click for interactive demo and zoom in to see individual towers (dots) and substations.</figcaption>
