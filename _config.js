@@ -1,5 +1,5 @@
 module.exports = {
-  baseurl: 'http://devseed.com/ml-grid-docs',
+  baseurl: 'https://devseed.com/ml-grid-docs',
 
   title: 'Mapping the electric grid',
   description: 'Using ML to augment human tracing of HV infrastructure',
