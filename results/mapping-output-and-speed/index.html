@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="description" content="Using ML to augment human tracing of HV infrastructure" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+<title>Mapping the electric grid</title>
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="" />
+<meta name="twitter:title" content="Mapping the electric grid">
+<meta name="twitter:description" content="Using ML to augment human tracing of HV infrastructure" />
+<meta name="twitter:image:src" content="https://devseed.com/ml-grid-docs/assets/graphics/meta/default-meta-image.png" />
+<!--/ Twitter -->
+
+<!-- OG -->
+<meta property="og:site_name" content="Mapping the electric grid" />
+<meta property="og:title" content="Mapping the electric grid" />
+<meta property="og:url" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Using ML to augment human tracing of HV infrastructure" />
+<meta property="og:image" content="https://devseed.com/ml-grid-docs/assets/graphics/meta/default-meta-image.png" />
+<!--/ OG -->
+
+<link rel="icon" type="image/png" sizes="96x96" href="https://devseed.com/ml-grid-docs/assets/graphics/meta/favicon.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="https://devseed.com/ml-grid-docs/assets/graphics/meta/android-chrome.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://devseed.com/ml-grid-docs/assets/graphics/meta/apple-touch-icon.png" />
+
+
+<link rel="author" type="text/plain" href="humans.txt" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" />
+
+
+
+<link rel="stylesheet" href="https://devseed.com/ml-grid-docs/assets/styles/main-0e59bd1017.css">
+
+  </head>
+  <body>
+    <!-- page -->
+    <div class="page">
+
+      <header class="page__header" role="banner">
+        <div class="inner">
+          <div class="page__headline">
+            <a href="/" title="Visit homepage">
+              <h1 class="page__title">Mapping the electric grid</h1>
+              <p class="page__subtitle">Using ML to augment human tracing of HV infrastructure</p>
+            </a>
+          </div>
+          <div class="page__browser pb" data-hook="menu:wrapper">
+            <h2 class="pb__title"><a href="#ppn__contents" title="Show/hide" class="pb__toggle" data-hook="menu:toggle"><span>Navigation & Colophon</span></a></h2>
+            <div id="pb__contents" class="pb__contents">
+              <div class="inner">
+                <nav class="page__prime-nav ppn">
+  
+  
+
+  
+  <section class="ppn__section">
+    <h3 class="ppn__section-title">Summary</h3>
+    
+
+
+
+
+<ul class="ppn__menu">
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/" title="Go to page" class="ppn__menu-item ">Executive Summary</a>
+      
+
+
+
+
+  </li>
+  
+</ul>
+
+  </section>
+  
+  <section class="ppn__section">
+    <h3 class="ppn__section-title">Introduction</h3>
+    
+
+
+
+
+<ul class="ppn__menu">
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/introduction/problem" title="Go to page" class="ppn__menu-item ">Problem</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/introduction/strategy" title="Go to page" class="ppn__menu-item ">Strategy</a>
+      
+
+
+
+
+  </li>
+  
+</ul>
+
+  </section>
+  
+  <section class="ppn__section">
+    <h3 class="ppn__section-title">Methodology</h3>
+    
+
+
+
+
+<ul class="ppn__menu">
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/methodology/the-processing-pipeline" title="Go to page" class="ppn__menu-item ">The processing pipeline</a>
+      
+
+
+
+
+<ul class="ppn__menu">
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/methodology/1-download-imagery" title="Go to page" class="ppn__menu-item ">1. Download imagery</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/methodology/2-machine-learning" title="Go to page" class="ppn__menu-item ">2. Machine learning</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/methodology/3-ml-derived-overlay" title="Go to page" class="ppn__menu-item ">3. ML-derived overlay</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/methodology/4-tracing" title="Go to page" class="ppn__menu-item ">4. Tracing</a>
+      
+
+
+
+
+  </li>
+  
+</ul>
+
+  </li>
+  
+</ul>
+
+  </section>
+  
+  <section class="ppn__section">
+    <h3 class="ppn__section-title">Results</h3>
+    
+
+
+
+
+<ul class="ppn__menu">
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/results/optimization-model-training" title="Go to page" class="ppn__menu-item ">Optimization: model training</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/results/optimization-signal-detection-threshold" title="Go to page" class="ppn__menu-item ">Optimization: signal detection threshold</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/results/country-wide-predictions" title="Go to page" class="ppn__menu-item ">Country-wide predictions</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/results/mapping-output-and-speed" title="Go to page" class="ppn__menu-item ppn__menu-item--active">Mapping output and speed</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/results/compute-costs" title="Go to page" class="ppn__menu-item ">Compute costs</a>
+      
+
+
+
+
+  </li>
+  
+</ul>
+
+  </section>
+  
+  <section class="ppn__section">
+    <h3 class="ppn__section-title">Discussion</h3>
+    
+
+
+
+
+<ul class="ppn__menu">
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/discussion/discussion" title="Go to page" class="ppn__menu-item ">Discussion</a>
+      
+
+
+
+
+<ul class="ppn__menu">
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/discussion/1-big-data" title="Go to page" class="ppn__menu-item ">1. Big data</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/discussion/2-improving-ml-output" title="Go to page" class="ppn__menu-item ">2. Improving ML output</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/discussion/3-improving-mapping-workflow" title="Go to page" class="ppn__menu-item ">3. Improving mapping workflow</a>
+      
+
+
+
+
+  </li>
+  
+</ul>
+
+  </li>
+  
+</ul>
+
+  </section>
+  
+</nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="page__body" role="main">
+        <div class="inner">
+
+          
+          <!-- attribution -->
+          <address class="page__attribution pa">
+            <div class="pa__label">
+              <small>Developed for World Bank</small>
+              <a href="https://github.com/developmentseed/ui-seed/" title="Visit">
+                <strong>World Bank Group</strong>
+              </a>
+            </div>
+            
+            <div class="pa__logo">
+              <a href="https://github.com/developmentseed/ui-seed/" title="Visit">
+                <img alt="World Bank Group logo" src="https://devseed.com/ml-grid-docs/assets/graphics/content/credits/wbg-logo-hor-col-grad.png" />
+              </a>
+            </div>
+            
+          </address>
+          <!--/ attribution -->
+          
+
+          <!-- inpage -->
+          <article class="inpage">
+            <header class="inpage__header">
+              <div class="inner">
+                
+                <div class="inpage__headline">
+                  <p class="inpage__subtitle">Results</p>
+                  <h1 class="inpage__title">Mapping output and speed</h1>
+                </div>
+
+              </div>
+            </header>
+
+            <div class="inpage__body">
+              <div class="inner">
+                <div class="prose prose--responsive">
+                  <p>This project substantially expanded the amount of mapped HV infrastructure (Figure 16). Edits include both additions and major corrections though the majority of edits were additions.</p>
+<p>We found that our Data Team was approximately 33.4x faster per km<sup>2</sup> with the ML-derived overlay for Pakistan, Nigeria, and Zambia (Figure 17). The total time spent mapping and validating each country using these ML predictions is in Table 1.</p>
+<p>Figures 18-20 show before and after maps of every country. Click on each to interact.</p>
+<figure class="align-center">
+  <img src="https://devseed.com/ml-grid-docs/assets/graphics/content/results_plots/mapped_features.png" alt="Total mapping edits." />
+  <figcaption><b>Figure 16. HV infrastructure features in OSM.</b> Left: Total length of HV line at the conclusion of this project. Middle: Total number of HV towers at the conclusion of this project. Right: Total number of substations at the conclusion of this project.  The bars in all plot are split into the amount of previously existing HV infrastructure (dark blue) and infrastructure added or edited during this project (light blue). In all cases, the large majority of edits were additions.</figcaption>
+</figure>
+<figure class="align-center">
+  <img src="https://devseed.com/ml-grid-docs/assets/graphics/content/results_plots/mapping_rate.png" alt="Mapping rate for km^2, towers, and substations per hour." />
+  <figcaption><b>Figure 17. Mapping rate with and without ML-assist.</b> On average, km<sup>2</sup> per hour increased by 33.4x, substations per hour by 15.9x, and towers per hour by 9.7. Note that these figures exclude hours spent validating (i.e., double-checking) edits and hours cross-checking WB records. This ensured a fair comparison as no double-checking was carried out during the pre-ML mapping work to generate the training data.</figcaption>
+</figure>
+<p>Table 1. <strong>Total person-hours spent mapping at country-wide scale.</strong></p>
+<table class="table">
+<thead>
+<tr>
+<th style="text-align:left">Country</th>
+<th style="text-align:left">Hours mapping</th>
+<th style="text-align:left">Hours validating edits</th>
+<th>Hours cross-checking WB records</th>
+<th><strong>Total hours</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Pakistan</td>
+<td style="text-align:left">364.13</td>
+<td style="text-align:left">181.09</td>
+<td>85.08</td>
+<td><strong>630.30</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Nigeria</td>
+<td style="text-align:left">243.12</td>
+<td style="text-align:left">74.47</td>
+<td>25.25</td>
+<td><strong>342.84</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Zambia</td>
+<td style="text-align:left">167.17</td>
+<td style="text-align:left">29.45</td>
+<td>28.70</td>
+<td><strong>225.32</strong></td>
+</tr>
+</tbody>
+</table>
+<h2>Interactive demonstrations</h2>
+<figure class="align-center">
+  <a href="https://bl.ocks.org/RichRico/raw/e85e9ea59466f5a408c95deafb284875/" target="_blank">
+    <img src="https://devseed.com/ml-grid-docs/assets/graphics/content/results_plots/map_wipe_pakistan.gif" alt="Before/after mapping in Pakistan.">
+  </a>
+  <figcaption><b>Figure 18. Before and after mapping in Pakistan.</b> High-voltage infrastructure before (yellow) and after (green) this project was complete. Click for interactive demo and zoom in to see individual towers (dots) and substations.</figcaption>
+</figure>
+<figure class="align-center">
+  <a href="https://bl.ocks.org/ridixcr/raw/8379b985314de1b80e498e10a6e218b4/" target="_blank">
+    <img src="https://devseed.com/ml-grid-docs/assets/graphics/content/results_plots/map_wipe_nigeria.gif" alt="Before/after mapping in Nigeria.">
+  </a>
+  <figcaption><b>Figure 19. Before and after mapping in Nigeria.</b> High-voltage infrastructure before (yellow) and after (green) this project was complete. Click for interactive demo and zoom in to see individual towers (dots) and substations.</figcaption>
+</figure>
+<figure class="align-center">
+  <a href="https://bl.ocks.org/piligab/raw/158194656b2923e439fad7ac5550aa34/" target="_blank">
+    <img src="https://devseed.com/ml-grid-docs/assets/graphics/content/results_plots/map_wipe_zambia.gif" alt="Before/after mapping in Zambia.">
+  </a>
+  <figcaption><b>Figure 20. Before and after mapping in Zambia.</b> High-voltage infrastructure before (yellow) and after (green) this project was complete. Click for interactive demo and zoom in to see individual towers (dots) and substations.</figcaption>
+</figure>
+                </div>
+              </div>
+            </div>
+
+            <footer class="inpage__footer">
+              <div class="inner">
+                <nav class="inpage__actions">
+                  <ul>
+                    <li>
+                      
+                        <a href="https://devseed.com/ml-grid-docs/results/country-wide-predictions" class="pa-prev" title="View previous post"><span>Prev</span></a>
+                      
+                    </li>
+                    <li>
+                      
+                        <a href="https://devseed.com/ml-grid-docs/results/compute-costs" class="pa-next" title="View next post"><span>Next</span></a>
+                      
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </footer>
+          </article>
+          <!--/ inpage -->
+
+        </div>
+      </main>
+
+      <footer class="page__footer" role="contentinfo">
+        <div class="inner">
+          <p>
+            <a href="https://developmentseed.org" title="Visit Development Seed website">
+              <span><img src="https://devseed.com/ml-grid-docs/assets/graphics/layout/devseed-logo-symbol.svg" alt="Development Seed logo symbol" width="512" height="152" /></span>
+              <strong>Development Seed</strong>
+              <small>2018</small>
+            </a>
+          </p>
+        </div>
+      </footer>
+
+    </div>
+    <!--/ page -->
+
+    <script src="https://devseed.com/ml-grid-docs/assets/scripts/vendor-d4a1581659.js"></script>
+
+<script src="https://devseed.com/ml-grid-docs/assets/scripts/bundle-5ac9a1fb1b.js"></script>
+  </body>
+</html>

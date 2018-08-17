@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="description" content="Using ML to augment human tracing of HV infrastructure" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+<title>Mapping the electric grid</title>
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="" />
+<meta name="twitter:title" content="Mapping the electric grid">
+<meta name="twitter:description" content="Using ML to augment human tracing of HV infrastructure" />
+<meta name="twitter:image:src" content="https://devseed.com/ml-grid-docs/assets/graphics/meta/default-meta-image.png" />
+<!--/ Twitter -->
+
+<!-- OG -->
+<meta property="og:site_name" content="Mapping the electric grid" />
+<meta property="og:title" content="Mapping the electric grid" />
+<meta property="og:url" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Using ML to augment human tracing of HV infrastructure" />
+<meta property="og:image" content="https://devseed.com/ml-grid-docs/assets/graphics/meta/default-meta-image.png" />
+<!--/ OG -->
+
+<link rel="icon" type="image/png" sizes="96x96" href="https://devseed.com/ml-grid-docs/assets/graphics/meta/favicon.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="https://devseed.com/ml-grid-docs/assets/graphics/meta/android-chrome.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://devseed.com/ml-grid-docs/assets/graphics/meta/apple-touch-icon.png" />
+
+
+<link rel="author" type="text/plain" href="humans.txt" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" />
+
+
+
+<link rel="stylesheet" href="https://devseed.com/ml-grid-docs/assets/styles/main-0e59bd1017.css">
+
+  </head>
+  <body>
+    <!-- page -->
+    <div class="page">
+
+      <header class="page__header" role="banner">
+        <div class="inner">
+          <div class="page__headline">
+            <a href="/" title="Visit homepage">
+              <h1 class="page__title">Mapping the electric grid</h1>
+              <p class="page__subtitle">Using ML to augment human tracing of HV infrastructure</p>
+            </a>
+          </div>
+          <div class="page__browser pb" data-hook="menu:wrapper">
+            <h2 class="pb__title"><a href="#ppn__contents" title="Show/hide" class="pb__toggle" data-hook="menu:toggle"><span>Navigation & Colophon</span></a></h2>
+            <div id="pb__contents" class="pb__contents">
+              <div class="inner">
+                <nav class="page__prime-nav ppn">
+  
+  
+
+  
+  <section class="ppn__section">
+    <h3 class="ppn__section-title">Summary</h3>
+    
+
+
+
+
+<ul class="ppn__menu">
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/" title="Go to page" class="ppn__menu-item ">Executive Summary</a>
+      
+
+
+
+
+  </li>
+  
+</ul>
+
+  </section>
+  
+  <section class="ppn__section">
+    <h3 class="ppn__section-title">Introduction</h3>
+    
+
+
+
+
+<ul class="ppn__menu">
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/introduction/problem" title="Go to page" class="ppn__menu-item ">Problem</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/introduction/strategy" title="Go to page" class="ppn__menu-item ">Strategy</a>
+      
+
+
+
+
+  </li>
+  
+</ul>
+
+  </section>
+  
+  <section class="ppn__section">
+    <h3 class="ppn__section-title">Methodology</h3>
+    
+
+
+
+
+<ul class="ppn__menu">
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/methodology/the-processing-pipeline" title="Go to page" class="ppn__menu-item ">The processing pipeline</a>
+      
+
+
+
+
+<ul class="ppn__menu">
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/methodology/1-download-imagery" title="Go to page" class="ppn__menu-item ">1. Download imagery</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/methodology/2-machine-learning" title="Go to page" class="ppn__menu-item ppn__menu-item--active">2. Machine learning</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/methodology/3-ml-derived-overlay" title="Go to page" class="ppn__menu-item ">3. ML-derived overlay</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/methodology/4-tracing" title="Go to page" class="ppn__menu-item ">4. Tracing</a>
+      
+
+
+
+
+  </li>
+  
+</ul>
+
+  </li>
+  
+</ul>
+
+  </section>
+  
+  <section class="ppn__section">
+    <h3 class="ppn__section-title">Results</h3>
+    
+
+
+
+
+<ul class="ppn__menu">
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/results/optimization-model-training" title="Go to page" class="ppn__menu-item ">Optimization: model training</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/results/optimization-signal-detection-threshold" title="Go to page" class="ppn__menu-item ">Optimization: signal detection threshold</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/results/country-wide-predictions" title="Go to page" class="ppn__menu-item ">Country-wide predictions</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/results/mapping-output-and-speed" title="Go to page" class="ppn__menu-item ">Mapping output and speed</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/results/compute-costs" title="Go to page" class="ppn__menu-item ">Compute costs</a>
+      
+
+
+
+
+  </li>
+  
+</ul>
+
+  </section>
+  
+  <section class="ppn__section">
+    <h3 class="ppn__section-title">Discussion</h3>
+    
+
+
+
+
+<ul class="ppn__menu">
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/discussion/discussion" title="Go to page" class="ppn__menu-item ">Discussion</a>
+      
+
+
+
+
+<ul class="ppn__menu">
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/discussion/1-big-data" title="Go to page" class="ppn__menu-item ">1. Big data</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/discussion/2-improving-ml-output" title="Go to page" class="ppn__menu-item ">2. Improving ML output</a>
+      
+
+
+
+
+  </li>
+  
+  <li>
+      
+      <a href="https://devseed.com/ml-grid-docs/discussion/3-improving-mapping-workflow" title="Go to page" class="ppn__menu-item ">3. Improving mapping workflow</a>
+      
+
+
+
+
+  </li>
+  
+</ul>
+
+  </li>
+  
+</ul>
+
+  </section>
+  
+</nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="page__body" role="main">
+        <div class="inner">
+
+          
+          <!-- attribution -->
+          <address class="page__attribution pa">
+            <div class="pa__label">
+              <small>Developed for World Bank</small>
+              <a href="https://github.com/developmentseed/ui-seed/" title="Visit">
+                <strong>World Bank Group</strong>
+              </a>
+            </div>
+            
+            <div class="pa__logo">
+              <a href="https://github.com/developmentseed/ui-seed/" title="Visit">
+                <img alt="World Bank Group logo" src="https://devseed.com/ml-grid-docs/assets/graphics/content/credits/wbg-logo-hor-col-grad.png" />
+              </a>
+            </div>
+            
+          </address>
+          <!--/ attribution -->
+          
+
+          <!-- inpage -->
+          <article class="inpage">
+            <header class="inpage__header">
+              <div class="inner">
+                
+                <div class="inpage__headline">
+                  <p class="inpage__subtitle">Methodology</p>
+                  <h1 class="inpage__title">2. Machine learning</h1>
+                </div>
+
+              </div>
+            </header>
+
+            <div class="inpage__body">
+              <div class="inner">
+                <div class="prose prose--responsive">
+                  <p>The code and model available on <a href="https://github.com/developmentseed/ml-hv-grid-pub">Github</a></p>
+<p>With the imagery downloaded, the next step was to autonomously investigate these images for HV towers. We generated a probability score on the interval [0, 1] that a HV tower was present in each raster image using a convolutional neural network (CNN). The CNN took raster images as input, and produced a single probability per image as output. Specifically, we used the <a href="https://arxiv.org/abs/1610.02357">XCeption neural network</a> (Chollet, 2016), as it has shown excellent scores on the ImageNet benchmark test set and has relatively few parameters relative to comparable CNNs (e.g., VGG and Inception). The latter fact implies faster training and prediction run-times simply because there are fewer point computations per image.</p>
+<p>The XCeption model was trained using three small datasets -- one from each of the three target countries (Figures 5-7). The Data Team manually validated all tiles in these datasets and incorporated any required changes into OSM. This involved checking every meter of ground so that we were confident our training dataset did not miss any towers or include false positives, which would hurt our ML model performance during the inference stage (i.e., predicting on a country-wide image set). For the training data, we only used the Digital Globe Vivid layer as this was the imagery we had access to for full country prediction. We then constructed the actual data using <a href="https://github.com/developmentseed/label-maker">Label-Maker</a> -- an open tool we built previously to rapidly construct ML-ready datasets from OSM and an imagery source. The training procedure leveraged transfer learning: the XCeption model was initialized in <a href="https://keras.io/">Keras</a> using weights from <a href="http://www.image-net.org/">ImageNet</a> training. We then re-trained only the top layer for 2-5 epochs so that it would output the probability of two classes (HV tower present or absent), and finally opened up training to all layers to fine tune the entire model.</p>
+<figure class="media__hascol media__hascol--2">
+  	<img src="https://devseed.com/ml-grid-docs/assets/graphics/content/training_ROI_pakistan.jpg" alt="Pakistan training area." class="media__item" />
+  	<img src="https://devseed.com/ml-grid-docs/assets/graphics/content/training_ROI_pakistan_zoom.jpg" alt="Pakistan training area zoom." class="media__item" />
+  	<figcaption><b>Figure 5. Training region for Pakistan. Green features represent HV infrastructure included in the training data.</b></figcaption>
+ </figure>
+ <figure class="media__hascol media__hascol--2">
+  	<img src="https://devseed.com/ml-grid-docs/assets/graphics/content/training_ROI_nigeria.jpg" alt="Nigeria training area." class="media__item"/>
+  	<img src="https://devseed.com/ml-grid-docs/assets/graphics/content/training_ROI_nigeria_zoom.jpg" alt="Nigeria training area zoom." class="media__item"/>
+  	<figcaption><b>Figure 6. Training region for Nigeria.</b> Green features represent HV infrastructure included in the training data. There are some broken lines as HV infrastructure was only included if it was visible on the Digital Globe Vivid layer.</figcaption>
+ </figure>
+ <figure class="media__hascol media__hascol--2">
+  		<img src="https://devseed.com/ml-grid-docs/assets/graphics/content/training_ROI_zambia.jpg" alt="Zambia training area." class="media__item"/>
+  		<img src="https://devseed.com/ml-grid-docs/assets/graphics/content/training_ROI_zambia_zoom.jpg" alt="Zambia training area zoom." class="media__item"/>
+  	<figcaption><b>Figure 7. Training region for Zambia.</b> Green features represent HV infrastructure included in the training data. There are some broken lines as HV infrastructure was only included if it was visible on the Digital Globe Vivid layer.</figcaption>
+ </figure>
+<p>In training, we used the binary cross-entropy loss function and generally trained over 15-30 epochs of the total training dataset. We also made use of Keras’s utility functions including early stopping and automatically reduced learning rate when validation loss hit a plateau. The dataset was augmented by using Keras’s image preprocessing functions to randomly flip, rotate, and scale original images during the training procedure. Results were visualized with <a href="https://github.com/tensorflow/tensorboard">Tensorboard</a> to monitor model progress. For hyperparameters, we used the <a href="https://github.com/hyperopt/hyperopt">Hyperopt library</a> to intelligently iterate over different hyperparameter combinations. The full list of hyperparameters is available in <code>config.py</code>, but generally this included options like the optimizer, learning rate, initialization strategy, etc. We selected an optimal model based on the highest accuracy score achieved on the held-out testing data across all Hyperopt iterations.</p>
+<p>We carried out all country-wide predictions in the inference stage on <a href="https://aws.amazon.com/">AWS</a> EC2 instances optimized for GPU compute. Specifically, we used the <code>p2.xlarge</code> and <code>p2.8xlarge</code> instance types and ran these as Spot Instances (as opposed to On-Demand) to reduce AWS costs. We typically ran 2-3 instances at a time to increase throughput. On each instance, we processed large batches of images one at a time. Each country was generally divided up into about 7-10 batches (according to the X-indices of tiles) as it was not feasible to transfer an entire country’s worth of tiles from S3 to the EC2 instance. While computing probability scores, the prediction script periodically uploaded tile prediction scores (as a JSON file) to S3 while processing (around every 5,000 images). This ensured that the prediction was fault tolerant -- scores were not lost when the instance shut down unexpectedly.</p>
+
+                </div>
+              </div>
+            </div>
+
+            <footer class="inpage__footer">
+              <div class="inner">
+                <nav class="inpage__actions">
+                  <ul>
+                    <li>
+                      
+                        <a href="https://devseed.com/ml-grid-docs/methodology/1-download-imagery" class="pa-prev" title="View previous post"><span>Prev</span></a>
+                      
+                    </li>
+                    <li>
+                      
+                        <a href="https://devseed.com/ml-grid-docs/methodology/3-ml-derived-overlay" class="pa-next" title="View next post"><span>Next</span></a>
+                      
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </footer>
+          </article>
+          <!--/ inpage -->
+
+        </div>
+      </main>
+
+      <footer class="page__footer" role="contentinfo">
+        <div class="inner">
+          <p>
+            <a href="https://developmentseed.org" title="Visit Development Seed website">
+              <span><img src="https://devseed.com/ml-grid-docs/assets/graphics/layout/devseed-logo-symbol.svg" alt="Development Seed logo symbol" width="512" height="152" /></span>
+              <strong>Development Seed</strong>
+              <small>2018</small>
+            </a>
+          </p>
+        </div>
+      </footer>
+
+    </div>
+    <!--/ page -->
+
+    <script src="https://devseed.com/ml-grid-docs/assets/scripts/vendor-d4a1581659.js"></script>
+
+<script src="https://devseed.com/ml-grid-docs/assets/scripts/bundle-5ac9a1fb1b.js"></script>
+  </body>
+</html>
